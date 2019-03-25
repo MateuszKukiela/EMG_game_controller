@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+keyboard = "==0.13.2"
+pynput = "==1.4"
+Flask = "==1.0.2"
+requests = "==2.21.0"
+numpy = "*"
+pyriemann = "*"
+pandas = "*"
+matplotlib = "*"
+PsychoPy = "*"
+"obci_1" = {path = "drivers/obci-2.7.0+6.g87e3397-py2.py3-none-any.whl", editable = false}
+"obci_3" = {path = "drivers/obci_cpp_amplifiers-2.6.0.post14+g0e3d385-cp36-cp36m-linux_x86_64.whl", editable = false}
+"obci_4" = {path = "drivers/obci_utils-2.7.0+6.g87e3397-py3-none-any.whl", editable = false}
+
+
+[dev-packages]
+"pylsl-1.10.6" = {path = "drivers/pylsl-1.10.6-py2.py3-none-any.whl", editable = false}
+
+
+[requires]
+python_version = "3.6"
