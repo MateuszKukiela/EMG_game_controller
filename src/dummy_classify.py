@@ -11,7 +11,7 @@ import configparser as cp
 from src.classifier import predict
 
 config = cp.ConfigParser()
-config.read('../config.ini')
+config.read('config.ini')
 
 sampling_rate = int(config['DEFAULT']['sampling_rate'])
 classifier_length = int(config['DEFAULT']['classifier_length'])
@@ -22,8 +22,8 @@ no_response_time = int(config['DEFAULT']['no_response_time'])
 
 # Create dummy matrix (512x8)
 rand_array = np.random.rand(sampling_rate, channels)
-fitted_model = np.load('../fitted_model/fitted_model.npy')
-
+fitted_model = np.load('./fitted_model/fitted_model.npy')
+fitted_model = np.random.rand(sampling_rate, channels)
 fitted_model[0] = np.array(fitted_model[0])
 
 def outer_classify(in_data, prev_data, sig_noMean):

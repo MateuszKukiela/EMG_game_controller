@@ -5,7 +5,7 @@ import json
 from src.dummy_classify import outer_classify
 
 config = cp.ConfigParser()
-config.read('../config.ini')
+config.read('config.ini')
 
 sampling_rate = int(config['DEFAULT']['sampling_rate'])
 classifier_length = int(config['DEFAULT']['classifier_length'])

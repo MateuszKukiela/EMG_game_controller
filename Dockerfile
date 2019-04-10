@@ -33,11 +33,13 @@ RUN apt-get install -y libsm-dev
 RUN apt-get install -y python-qt4
 RUN apt-get install -y freeglut3-dev
 
-COPY ./amplifier-online amplifier-online
-COPY src/calibration-session calibration-session
-COPY src/classifier classifier
-COPY src/client-app client-app
-COPY src/app.py /EMG_controller
+COPY test /EMG_controller/test
+COPY src/calibration-session src/calibration-session
+COPY src/classifier src/classifier
+COPY src/client-app src/client-app
+COPY src/app.py /EMG_controller/src
 COPY index.py /EMG_controller
-COPY src/dummy_classify.py /EMG_controller
+COPY src/dummy_classify.py /EMG_controller/src
 COPY config.ini /EMG_controller
+COPY config.ini /EMG_controller/src
+COPY fitted_model /EMG_controller/fitted_model
