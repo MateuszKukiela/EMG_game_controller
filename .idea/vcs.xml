@@ -2,13 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/amplifier-online" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/amplifier-online/src/classifier" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/calibration-session" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/classifier" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/client-app" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/calibration-session" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/classifier" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/client-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MDM" vcs="Git" />
   </component>
 </project>

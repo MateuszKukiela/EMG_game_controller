@@ -1,0 +1,3 @@
+[submodule "MDM"]
+	path = MDM
+	url = https://github.com/Przepioreczka/MDM.git
