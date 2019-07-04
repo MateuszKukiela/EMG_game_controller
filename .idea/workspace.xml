@@ -2,148 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af89d414-13e2-45fa-aefc-8a31868ec1a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EMG_game_controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EMG_game_controller.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/obci-2.7.0+6.g87e3397-py2.py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/obci_cpp_amplifiers-2.6.0.post14+g0e3d385-cp35-cp35m-linux_x86_64.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/obci_cpp_amplifiers-2.6.0.post14+g0e3d385-cp36-cp36m-linux_x86_64.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/obci_utils-2.7.0+6.g87e3397-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6-py2.py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/MANIFEST.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/liblsl32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/liblsl32.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/liblsl32.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/liblsl64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/liblsl64.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/liblsl64.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/build/lib.linux-x86_64-2.7/pylsl/pylsl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/dist/pylsl-1.10.6-py2.py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/liblsl32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/liblsl32.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/liblsl32.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/liblsl64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/liblsl64.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/liblsl64.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/pylsl/pylsl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl-1.10.6/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/pylsl.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/tmsi-dkms_1.8-6~_all.deb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitted_model/fitted_model.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/.~lock.calibration.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/calibration.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/calibration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1620.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1620.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1620.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1620.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1638.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1638.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1638.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1638.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1640.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1640.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1640.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1640.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1648.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1739.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1739.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1739.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1739.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1748.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1748.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1748.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1748.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1750.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1750.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1750.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1750.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1754.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1754.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1754.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/_experiment_2_2019_kwi_10_1754.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_1_2019_kwi_09_2159.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_1_2019_kwi_09_2159.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_1_2019_kwi_09_2159.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_1_2019_kwi_09_2159.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2200.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2200.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2200.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2206.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2206.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2206.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/mateusz_experiment_2_2019_kwi_09_2206.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/przemek_experiment_2_2019_kwi_10_1615.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/przemek_experiment_2_2019_kwi_10_1615.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/przemek_experiment_2_2019_kwi_10_1615.psydat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/data/przemek_experiment_2_2019_kwi_10_1615.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/experiment_1.psyexp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/experiment_1_lastrun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/experiment_2.psyexp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/experiment_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/experiment_2_lastrun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/gesture_order.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/run_calibration_fit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/samples_data/epoched_data_bi256.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/samples_data/epoched_data_bi512.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/samples_data/labels.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calibration-session/trials.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/CommitTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/classification_real.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/classifier.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/classifier.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/classifier.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/classifier.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/data_import.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/dist/classifier-0.1-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/dist/dlassifier-0.1-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/epoched_data/all_labels.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/epoched_data/epoched_data_bi256.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/epoched_data/epoched_data_bi512.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/fit_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/predict_interface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/riemann_classifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/sample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classifier/untitled1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client-app/comms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client-app/src/keys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy_classify.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,19 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitmodules">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -179,6 +31,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/controller.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -252,7 +105,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30614406" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32944915" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -271,6 +124,13 @@
           <folding>
             <element signature="e#0#78#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
